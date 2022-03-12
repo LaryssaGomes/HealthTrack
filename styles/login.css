@@ -1,0 +1,40 @@
+@import "./header.css";
+.btn {
+  background-color: #f97316;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #f97316;
+  color: #fff;
+}
+main {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.container-cadastro {
+  margin-top: 1rem;
+}
+@media (max-width: 630px) {
+  main {
+    margin-top: 25%;
+  }
+}

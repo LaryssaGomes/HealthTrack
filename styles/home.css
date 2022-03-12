@@ -1,0 +1,53 @@
+@import "./header.css";
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.imgSVG {
+  width: 100%;
+}
+
+.description {
+  width: 400px;
+  font-size: 1.4rem;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.buttons a {
+  background-color: #f97316;
+  border-color: #f97316;
+  font-size: 1rem;
+}
+.buttons a:hover {
+  background-color: #be5810;
+  border-color: #be5810;
+}
+.buttons a:first-child {
+  margin-right: 1rem;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 630px) {
+  .align-items-center {
+    position: absolute;
+    top: 100px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .imgSVG {
+    width: 30px;
+  }
+  .align-items-center .col:first-child {
+    text-align: center;
+    margin-top: 5rem;
+  }
+}

@@ -1,0 +1,30 @@
+#menu-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.d-flex span {
+  color: #111827;
+}
+.d-flex a {
+  color: #f97316;
+  font-size: 1rem;
+}
+.d-flex a:hover {
+  background-color: #f97316;
+  color: #fff;
+  border-radius: 5px;
+}
+
+@media (max-width: 630px) {
+  header {
+    transform: scale(0.9);
+  }
+  .d-flex a {
+    font-size: 1.2rem;
+  }
+
+  #menu-title {
+    font-size: 1.2rem;
+  }
+}
